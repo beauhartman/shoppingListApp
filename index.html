@@ -14,17 +14,15 @@
 			<h1>My Shopping App</h1>
 		</div>
 		<div id="content-section">
-			<div id="content-section-buttons">
-				<input id="add-new-items" type="text" placeholder="Enter the Item You Gotta Have!">
-				<button class="add-function">+</button>	
+			<div>
+				<input id="add-new-item" type="text" placeholder="Enter the Item You Gotta Buy!">
+				<button class="add-button">+</button>	
 			</div>
-			<div id="content-section-list">
-				<p><span class="delete-item">X</span>1st Newest Item<span class="got-it">Need It!</span></p>
-				<p><span class="delete-item">X</span>2nd Newest Item<span class="need-it">Got  It.</span></p>
-				<p><span class="delete-item">X</span>3rd Newest Item<span class="got-it need-it">Need It!</span></p>
-				<p><span class="delete-item">X</span>4th Newest Item<span class="got-it need-it">Got  It.</span></p>
-				<p><span class="delete-item">X</span>5th Newest Item<span class="got-it need-it">Need It!</span></p>
-				<p><span class="delete-item">X</span>6th Newest Item<span class="got-it need-it">Got  It.</span></p>
+			<div id="list">
+				<ul>
+					<li><span class="delete">X</span><span class="item-name">1st New Item</span><button id="needgot" class="need-it got-it" data-text-swap="Got It!">Need It!</button></li>
+					<li><span class="delete">X</span><span class="item-name">2nd New Item</span><button id="needgot" class="need-it got-it" data-text-swap="Got It!">Need It!</button></li>
+				</ul>
 			</div>
 		</div>
 		<div id="footer">
