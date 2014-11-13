@@ -57,17 +57,20 @@ li {
 }
 
 .delete {
+  cursor: pointer;
   float: left;
   margin-left: 10px;
-  margin-top: 5px;
+  margin-top: 1px;
+  font-size: 30px;
 }
 
 .item-name {
-  font-size: 12px;
+  font-size: 30px;
   font-style: italic;
 }
 
-.need-it {
+.need {
+  cursor: pointer;
   background-color: #FF0000;
   color: #000;
   float: right;
@@ -79,7 +82,8 @@ li {
 
 }
 
-.got-it {
+.got {
+  cursor: pointer;
   background-color: #21D41C;
   color: #000;
   float: right;
@@ -88,10 +92,7 @@ li {
   height: 32px;
   width: 80px;
   line-height: 29px;
-}
-
-.added-item {
-
+  display: none;
 }
 
 #footer {
@@ -101,13 +102,6 @@ li {
   background-color: #DBFFB8;
   color: #000;
   bottom: 0;
-}
-
-.total-items {
-	font-size: 20px;
-	width: 200px;
-	text-align: left;
-	margin-top: 20px;
 }
 
 .start-a-new-list {
