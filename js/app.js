@@ -21,5 +21,8 @@ $(document).ready(function() {
 	})
 
 	//* User wants to add an item to the list
-	
+	$(document).on("click", "#add-button", function() {
+		$("#list ul").append('<li><span class="delete"></span>' + $("input#add-new-item").val() + '<span class="red green"></span>' + '</li>');
+		$("#add-new-item").val("");
+	})
 });
