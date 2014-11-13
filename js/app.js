@@ -1,4 +1,7 @@
 $(document).ready(function() {
+	var deleteX = '<span class="delete"></span>'
+	var redGreen = '<span class="red green"></span>'
+
 	//* User wants to delete an item from the list
 	$(document).on("click", ".delete", function() {
 		$(this).closest("li").remove();
@@ -22,7 +25,8 @@ $(document).ready(function() {
 
 	//* User wants to add an item to the list
 	$(document).on("click", "#add-button", function() {
-		$("#list ul").append('<li><span class="delete"></span>' + $("input#add-new-item").val() + '<span class="red green"></span>' + '</li>');
+		var getItem = $("#add-new-item").val();
+		$("#list > ul").append('<li>' + deleteX + getItem + redGreen + '</li>');
 		$("#add-new-item").val("");
 	})
 });
