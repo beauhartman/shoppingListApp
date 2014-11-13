@@ -42,55 +42,43 @@ h1 {
   margin-bottom: 10px;
 }
 
-.add-button {
-  width: 40px;
-}
-
 li {
   width: 650px;
   height: 40px;
-  background-color: #AFC1C1;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 20px;
   text-align: center;
   line-height: 39px;
+  display: table;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 30px;
+  font-style: italic;
+  background-color: #FF0000;
+}
+
+/*.item-name {
+  font-size: 30px;
+  font-style: italic;
+  display: none;
+} */
+
+/*.red {
+  background-color: #FF0000;
+  color: #000;
+}*/
+
+.green {
+  background-color: rgb(6, 202, 6);
 }
 
 .delete {
   cursor: pointer;
-  float: left;
-  margin-left: 10px;
-  margin-top: 1px;
-  font-size: 30px;
-}
-
-.item-name {
-  font-size: 30px;
-  font-style: italic;
-}
-
-.green {
-  cursor: pointer;
-  background-color: rgb(6, 202, 6);
-  color: #000;
   float: right;
   margin-right: 10px;
-  margin-top: 4px;
-  height: 32px;
-  width: 32px;
-  line-height: 29px;
-}
-
-.red {
-  cursor: pointer;
-  background-color: #FF0000;
-  color: #000;
-  float: right;
-  margin-right: 10px;
-  margin-top: 4px;
-  height: 32px;
-  width: 32px;
-  line-height: 29px;
+  font-size: 30px;
+  font-style: normal;
 }
 
 #footer {
