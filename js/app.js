@@ -20,7 +20,7 @@ $(document).ready(function() {
 
 	//* User wants to reset the list
 	$(document).on('click', '.start-a-new-list', function() {
-		$('#list').remove('li');
+		$('#list').empty();
 	})
 
 	//* User wants to delete an item from the list
